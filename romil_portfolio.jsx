@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import * as THREE from "three";
 import { ExternalLink, Github, Linkedin, Mail, MapPin, FileText, ChevronDown, Cpu, Eye, Wifi, Zap, Bot, BrainCircuit, Cog, Send, Menu, X, SlidersHorizontal, Crosshair, Activity } from "lucide-react";
-
+[assets]
+directory = "./public" 
 const ACCENT = "#00e5ff";
 const ACCENT2 = "#ff3d00";
 const ACCENT3 = "#7c4dff";
